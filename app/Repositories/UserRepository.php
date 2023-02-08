@@ -23,6 +23,7 @@ class UserRepository implements IUserRepository
             $user->email = $collection['email'];
             $user->password = Hash::make($collection['password']);
             $user->save();
+            return $user;
         }
 
         $user = User::find($id);
@@ -31,8 +32,8 @@ class UserRepository implements IUserRepository
         $user->name = $collection['name'];
         $user->email = $collection['email'];
         $user->save();
-
         return $user;
+
     }
 
     public function deleteUser($id)
