@@ -2,7 +2,7 @@
 Este proyecto tiene como proposito emplear la Swapi API para la obtencion de informacion clave para el imperio. 
 Mi mision debe ser tomada con seriedad, por eso cree endpoints especificos que seran definitivos para la lucha. 
 ### Link
-https://closed-van-production.up.railway.app
+https://backend-production-40a0.up.railway.app
 
 ## Correr en Local
 
